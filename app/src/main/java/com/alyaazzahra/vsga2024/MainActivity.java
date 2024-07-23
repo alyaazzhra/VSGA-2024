@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showName(View view) {
-        textNama.setText("Nama Anda: " + inputNama.getText());
+        textNama.setText(getString(R.string.nama_anda) + inputNama.getText()));
     }
 }
